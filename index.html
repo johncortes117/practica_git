@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Deja tu huella en GitHub!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1 class="animated-title"><i class="fab fa-github"></i> Tu Huella Digital</h1>
+            <p class="animated-subtitle">Contribuye al proyecto con tu mensaje único</p>
+            <a href="#contributions" class="cta-button">Ver Contribuciones</a>
+        </div>
+        <div class="hero-patterns"></div>
+    </div>
+
+    <main>
+        <section class="intro">
+            <div class="container">
+                <div class="intro-text">
+                    <h2>¡Bienvenido a GitHub Colaborativo!</h2>
+                    <p>Este es un espacio donde cada participante puede dejar su marca. Aprende Git mientras contribuyes a este hermoso mosaico digital de mensajes.</p>
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-icon"><i class="fas fa-code-branch"></i></div>
+                            <p>Crea tu rama</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon"><i class="fas fa-code"></i></div>
+                            <p>Añade tu tarjeta</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon"><i class="fas fa-code-pull-request"></i></div>
+                            <p>Crea un Pull Request</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contributions" id="contributions">
+            <div class="container">
+                <h2 class="section-title">Wall of Fame</h2>
+                <p class="section-subtitle">Descubre quiénes han contribuido a este proyecto</p>
+                
+                <div class="cards-container">
+                    <!-- Tarjeta de ejemplo -->
+                    <div class="card glow-effect">
+                        <div class="card-header">
+                            <div class="avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <span class="author">Profesor</span>
+                        </div>
+                        <div class="card-body">
+                            <p>¡Bienvenidos a esta práctica de GitHub! Añade tu mensaje y muestra tu creatividad.</p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="date">16 de abril, 2025</span>
+                            <span class="tag">#CreadorDelCurso</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Aquí los participantes agregarán sus tarjetas -->
+                </div>
+                
+                <div class="contribution-help">
+                    <button id="showExampleBtn" class="btn-floating">
+                        <i class="fas fa-question"></i>
+                    </button>
+                    <div id="exampleModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close-modal">&times;</span>
+                            <h3>¿Cómo añadir tu tarjeta?</h3>
+                            <div id="codeExample"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>Curso de GitHub &copy; 2025</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
